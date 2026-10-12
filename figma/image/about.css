@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:black ;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h2{
+    color: brown;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    transition: 0.2s;
+}
+nav ul li a:hover{
+    list-style: 5px;
+    color: brown;
+}
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color: brown;
+    border: 3px solid brown;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h1{
+    color: brown;
+    margin-left: 520px;
+    margin-top: 50px;
+}
+p{
+    color: white;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+
+nav ul li a.active {
+    border-bottom: 3px solid brown;
+}
